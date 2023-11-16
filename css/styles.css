@@ -18,6 +18,10 @@ ul,ol {
     padding-left: 0;
 }
 
+img {
+    display: block;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -101,6 +105,12 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+}
+
+.benefits-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .feuter-title,
