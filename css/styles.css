@@ -218,6 +218,10 @@ f
     /* padding-top: 48px; */
 }
 
+.portfolio-item-list:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
 .team-item,
 .portfolio-item {
     display: flex;
