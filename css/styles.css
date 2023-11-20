@@ -214,25 +214,34 @@ f
 }
 
 .portfolio-item-list {
-    width: calc((100% - 72px) / 3);
+    width: calc((100% - 48px) / 3);
     padding-top: 48px;
 }
 
 .team-item,
 .portfolio-item {
     display: flex;
-    gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-item {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-
+    column-gap: 24px;
 }
 
 .feuter-title,
-.team-item-title,
+.team-item-title {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
 .portfolio-item-title {
     color: #2e2f42;
     font-weight: 500;
@@ -240,11 +249,12 @@ f
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+
 }
 
 .team-img,
 .portfolio-img {
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
 }
 
 .team-item-list {
@@ -255,7 +265,14 @@ f
 }
 
 .feuter-desc,
-.team-desc,
+.team-desc{
+    width: 264px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: inherit;
+    text-align: center;
+}
+
 .portfolio-desc {
     width: 264px;
     line-height: 1.5;
@@ -276,6 +293,21 @@ f
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+}
+
+.team-item {
+    gap: 24px;
+}
+
+.name-worker {
+    padding: 32px 0;
+    margin-bottom: 8px;
+}
+
+.name-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .bottom {
