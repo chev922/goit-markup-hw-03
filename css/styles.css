@@ -226,7 +226,15 @@ f
     column-gap: 24px;
 }
 
-.feuter-title,
+.feuter-title {
+    color: #2e2f42;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+}
+
 .team-item-title {
     color: #2e2f42;
     font-weight: 500;
@@ -259,8 +267,14 @@ f
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.feuter-desc,
-.team-desc{
+.feuter-desc {
+width: 264px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: inherit;
+}
+
+.team-desc {
     width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
